@@ -6,7 +6,7 @@ public class Boat extends Vehicle {
     public int boatKilosWeight;
 
 
-    public void Boat(double maxSpeed, int weight) {
+    public Boat(double maxSpeed, int weight) {
         this.maxKnotsSpeed = maxSpeed;
         this.boatKilosWeight = weight;
         this.type = "Siren";
@@ -16,12 +16,12 @@ public class Boat extends Vehicle {
 
     @Override
     void doVehicleSound() {
-        System.out.println("fiuuuuuuuum");
+        System.out.println("Fiuuuuuuuum");
 
     }
 
     void getBoatWeightAndSpeed() {
-        System.out.println("The total weight of the boat is " + boatKilosWeight + "and the maximum speed is " + maxKnotsSpeed);
+        System.out.println("The total weight of the boat is " + boatKilosWeight +" kg " +  "and the maximum speed is " + maxKnotsSpeed);
 
     }
 }

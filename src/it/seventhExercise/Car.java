@@ -9,14 +9,14 @@ public class Car extends Vehicle {
 
     @Override
     void doVehicleSound() {
-        System.out.println("brrruuuuuuuuum");
+        System.out.println("Brrruuuuuuuuum");
 
     }
 
     @Override
     public void showVehicleDetails() {
-        System.out.println("this is a " + type + "and has " + numberOfWheels + "wheels");
-        System.out.println("this car has " + numberOfDoors);
+        System.out.println("This is a " + type + " and has " + numberOfWheels + " wheels");
+        System.out.println("This car has " + numberOfDoors + " doors");
 
     }
 
